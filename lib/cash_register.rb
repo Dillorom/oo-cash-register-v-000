@@ -4,12 +4,13 @@ class CashRegister
   @@total = 0
 
 
-  def initialize(discount = 20)
+  def initialize(discount = 0)
     @title = title
     @price = price
     @total = 0
     @itams = []
     @last_transaction = last_transaction
+    @discount
 
 
   end
