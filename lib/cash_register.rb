@@ -27,7 +27,7 @@ class CashRegister
   def apply_discount
     if discount
       @total = @total - 200
-      return "After the discount, the total comes to $#{self.total}."
+      return "After the discount, the total comes to #{self.total}."
     end
   end
 
